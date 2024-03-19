@@ -1,0 +1,74 @@
+
+body{
+    background-image: url("../img/fondo_wallet.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+} 
+
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: monospace;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row {
+    margin-top: 25px;
+
+}
+
+#formulario{
+    width: 100%;
+}
+
+
+h1{
+    color:rgb(234, 165, 78); 
+}
+
+h2{
+    color:black;
+}
+
+
+h5{
+    color:rgb(234, 165, 78); 
+}
+
+.btn{
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.d-flex{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.d-flex button {
+    margin-right: 5px;
+    justify-content: center;
+    display: flex;
+}
+
+#btnclose{
+    width: 100%;
+}
+
+#balance {
+    height: 60px;
+    border-radius: 5px;
+    color: black;
+    font-size: 40px;
+    font-family: monospace; 
+    display: flex;
+    align-items: center;
+  }
